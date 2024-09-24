@@ -8,6 +8,8 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 	
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) {
-		http.csrf().disable().authorizeRequests().ant
+		// added comments for testing purpose 
+		return null;
+//		http.csrf().disable().authorizeRequests().ant
 	}
 }
